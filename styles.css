@@ -99,20 +99,15 @@ body{
 
 /*changing box container interaction on hover*/
 .menu-box:hover{
-    box-shadow: 5px 5px 5px 5px black;
-    transform: scale(1.05);
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.228);
+    border-radius: 10px;
+    transition: 0.5s;
 }
 
 .menu-box img{
     width: 200px;
     height: 100px;
     border: 1px solid rgba(255, 255, 255, 0.63);
-}
-
-/*changing image interaction on hover*/
-.menu-box img:hover{
-    transform: scale(1.10);
-    cursor: pointer;
 }
 
 .about-us-container{
@@ -170,12 +165,15 @@ button:hover{
 
 .menu-box button:hover{
     background-color: #4dbb7f;
+    transition: 0.5s;
 }
 .contact form button:hover{
     background-color: #6b522c;
+    transition: 0.5s;
 }
 .hero button:hover{
     background-color: #6b522c;
+    transition: 0.5s;
 }
 
 
