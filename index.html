@@ -11,56 +11,83 @@
 <body>
     <section class="header" id="home">
         <header class="header-container">
-            <div class="header-left">
-                <h2>Bobby's Pizza</h2>
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="header-left col-sm-3">
+                        <h2>Bobby's Pizza</h2>
+                    </div>
+                    <nav class="header-right col-sm-5">
+                        <a href="#home">Home</a>
+                        <a href="#menu">Menu</a>
+                        <a href="#about-us">About Us</a>                    
+                        <a href="#contact">Contact Us</a>
+                    </nav>
+                </div>
             </div>
-            <nav class="header-right">
-                <a href="#home">Home</a>
-                <a href="#menu">Menu</a>
-                <a href="#about-us">About Us</a>                    
-                <a href="#contact">Contact Us</a>
-            </nav>
         </header>
     </section>
     <section class="hero">
-        <h1>Explore a world of culinary and cheesy delight</h1>
-        <button>Check It Out</button>
-    </section>
-    <section class="menu" id="menu">
-        <h1>Our Menu</h1>
-        <p>We are proud to present our customers with a few excellent choices that are included in our menu, take a look!</p>
-        <div class="menu-container">
-            <div class="menu-box">
-                <img src="imgs/margherita.jpg" alt="margherita">
-                <h2>Margherita</h2>
-                <p>Ingredients: Pizza dough, Tomato sauce, Fresh mozzarella cheese, Fresh basil leaves, Extra virgin olive oil, Salt</p>
-                <button>Place Order</button>
-            </div>
-            <div class="menu-box">
-                <img src="imgs/chicken.jpg" alt="chicken pizza">
-                <h2>Chicken Pizza</h2>
-                <p>Ingredients: Pizza dough, Tomato sauce, Cooked chicken breast, Mozzarella cheese, Red onions (optional), Bell peppers (optional), Olive oil, Oregano or Italian seasoning</p>
-                <button>Place Order</button>
-            </div>
-            <div class="menu-box">
-                <img src="imgs/pineapple.jpg" alt="pineapple pizza">
-                <h2>Pineapple Pizza</h2>
-                <p>Ingredients: Pizza dough, Tomato sauce, Mozzarella cheese, Pineapple chunks (fresh), red chili flakes</p>
-                <button>Place Order</button>
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-sm-4">
+                    <h1>Explore a world of culinary and cheesy delight</h1>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-sm-3">
+                        <button>Check It Out</button>
+                    </div>
+                </div> 
             </div>
         </div>
         
     </section>
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Our Menu</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>We are proud to present our customers with a few excellent choices that are included in our menu, take a look!</p>
+                </div>
+            </div>
+            <div class="menu-container row">
+                <div class="menu-box col-sm-4">
+                    <img src="imgs/margherita.jpg" alt="margherita">
+                    <h2>Margherita</h2>
+                    <p>Ingredients: Pizza dough, Tomato sauce, Fresh mozzarella cheese, Fresh basil leaves, Extra virgin olive oil, Salt</p>
+                    <button>Place Order</button>
+                </div>
+                <div class="menu-box col-sm-4">
+                        <img src="imgs/chicken.jpg" alt="chicken pizza">
+                        <h2>Chicken Pizza</h2>
+                        <p>Ingredients: Pizza dough, Tomato sauce, Cooked chicken breast, Mozzarella cheese, Red onions (optional), Bell peppers (optional), Olive oil, Oregano or Italian seasoning</p>
+                        <button>Place Order</button>
+                    </div>
+                    <div class="menu-box col-sm-4">
+                        <img src="imgs/pineapple.jpg" alt="pineapple pizza">
+                        <h2>Pineapple Pizza</h2>
+                        <p>Ingredients: Pizza dough, Tomato sauce, Mozzarella cheese, Pineapple chunks (fresh), red chili flakes</p>
+                        <button>Place Order</button>
+                    </div>
+                </div>
+            </div>  
+        </div> 
+    </section>
     <section class="about-us" id="about-us">
-        <div class="about-us-container">
-            <div class="about-left">
-                <p>Founded in 2008 by Bobby Mancini, Bobby’s Pizza was born from a lifelong love of traditional Italian cuisine and a dream of bringing authentic, wood-fired pizza to the heart of the community. From humble beginnings in a cozy corner shop, Bobby’s commitment to quality and flavor quickly earned the pizzeria a loyal following.</p>
-                <p>Using the freshest local ingredients, we honor classic recipes, and serve every pizza with heart. Each pie that leaves our oven is hand-crafted, stone-baked, and infused with the passion that has defined us from day one.</p>
-                <p>Over the years, Bobby’s Pizza has grown into a neighborhood staple known for its welcoming atmosphere, friendly service, and unmistakable aroma of dough, sauce, and melted mozzarella. Whether you’re grabbing a quick slice or sitting down for a family dinner, our team is here to make you feel right at home — one delicious bite at a time.</p>
-            </div>
-            <div class="about-right">
-                <img src="imgs/about.png" alt="aboutus">
-            </div>
+        <div class="about-us-container container">
+            <div class="row justify-content-center">
+                <div class="about-left col-sm-8 align-self-center">
+                    <p>Founded in 2008 by Bobby Mancini, Bobby’s Pizza was born from a lifelong love of traditional Italian cuisine and a dream of bringing authentic, wood-fired pizza to the heart of the community. From humble beginnings in a cozy corner shop, Bobby’s commitment to quality and flavor quickly earned the pizzeria a loyal following.</p>
+                    <p>Using the freshest local ingredients, we honor classic recipes, and serve every pizza with heart. Each pie that leaves our oven is hand-crafted, stone-baked, and infused with the passion that has defined us from day one.</p>
+                    <p>Over the years, Bobby’s Pizza has grown into a neighborhood staple known for its welcoming atmosphere, friendly service, and unmistakable aroma of dough, sauce, and melted mozzarella. Whether you’re grabbing a quick slice or sitting down for a family dinner, our team is here to make you feel right at home — one delicious bite at a time.</p>
+                </div>
+                <div class="about-right img-fluid col-sm-4 align-self-center">
+                    <img src="imgs/about.png" alt="aboutus">
+                </div>
+                </div> 
         </div>
     </section>
     <section class="contact" id="contact">
@@ -75,29 +102,31 @@
     </section>
     <section class="footer">
         <footer class="footer-container">
-            <div class="top-part">
-                <div class="footer-box">
-                    <div class="info-container">
+            <div class="top-part container">
+                <div class="footer-box row">
+                    <div class="info-container col-sm-4">
                         <h1>Bobby's Pizza</h1>
                         <p>Address: Place, City Name, Country Name</p>
                         <p>Tel: 0550******</p>
                         <p>Email: restaurant@domain.com</p>
                     </div>
-                    <h1>Find us here!</h1>
-                    <div class="icon-container">
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-facebook"></i>
-                        <i class="fab fa-x-twitter"></i>
-                        <i class="fab fa-threads"></i>
-                    </div>
-                </div>
-                <div class="footer-box">
-                    <h1>Links</h1>
-                    <div class="link-container">
-                        <a href="#home">Home</a>
-                        <a href="#menu">Menu</a>
-                        <a href="#about-us">About Us</a>
-                        <a href="#contact">Contact Us</a>
+                    <div class="col-sm-4">
+                        <h1>Find us here!</h1>
+                        <div class="icon-container">
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-x-twitter"></i>
+                            <i class="fab fa-threads"></i>
+                        </div>
+                    </div> 
+                    <div class="col-sm-4">
+                        <h1>Links</h1>
+                        <div class="link-container">
+                            <a href="#home">Home</a>
+                            <a href="#menu">Menu</a>
+                            <a href="#about-us">About Us</a>
+                            <a href="#contact">Contact Us</a>
+                        </div>
                     </div>
                 </div>
             </div>
